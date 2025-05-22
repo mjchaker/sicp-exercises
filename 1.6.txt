@@ -1,0 +1,11 @@
+If 'new-if' is used:
+
+Firstly, the predicate good-enough? is called. Then, guesss is
+evalauated. Afterwards, sqrt-iter is infinitely called.
+
+If 'if' is used:
+
+Firstly, the predicate (good-enough?) is called. If good-enough?
+ returns #t, the interpreter evaluates & returns the consequent. If
+ good-enough? returns #f, the interpreter evaluates & returns the
+ alternative.
