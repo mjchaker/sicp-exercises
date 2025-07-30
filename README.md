@@ -62,18 +62,22 @@ Many exercises (especially 1-11, 1-16 through 1-18) explore the difference betwe
 ## Running the Code
 
 ### Prerequisites
-- Install [Racket](https://racket-lang.org/) with SICP language support
-- Or use DrRacket IDE
+- Install [MIT/GNU Scheme](https://www.gnu.org/software/mit-scheme/) (preferred)
+- Or install [Racket](https://racket-lang.org/) with SICP language support
 
 ### Execution
 ```bash
-# Run individual files
+# Run individual files with MIT/GNU Scheme (preferred)
+mit-scheme --load filename.scm
+
+# Alternative: Run with Racket
 racket filename.scm
 
-# Or open in DrRacket IDE for interactive development
+# For interactive development
+mit-scheme  # Start REPL, then use (load "filename.scm")
 ```
 
-All `.scm` files include `#lang sicp` at the top and are ready to run directly.
+All `.scm` files are compatible with MIT/GNU Scheme and ready to run directly.
 
 ## Code Features
 

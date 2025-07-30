@@ -1,0 +1,2 @@
+With applicative evalulation, the (test 0 (p)) forever expands. With
+normal evaluation, the substitution occurs and is evaluated.
